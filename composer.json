@@ -15,5 +15,12 @@
         "psr-0": {
             "Leonardo\\PatientManager\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leonardo\\PatientManager\\PatientManagerProvider"
+            ]
+        }
     }
 }
