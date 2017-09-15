@@ -1,0 +1,19 @@
+{
+    "name": "LeonardoWang/patient-manager",
+    "description": "a patient manager vendor",
+    "authors": [
+        {
+            "name": "leonardo wang",
+            "email": "leonardo-wang@github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Leonardo\\PatientManager\\": "src/"
+        }
+    }
+}
